@@ -12,7 +12,7 @@
 4. Write an ALP for 8086 to compare two strings and display "Same" if they are same else print "Not Same". [open](https://github.com/shivajichalise/malp/blob/main/8086/4.asm)
 5. Write an ALP for 8086 to print "Microprocessor Programming" from string data "Microprocessor and Assembly Language Programming". [open](https://github.com/shivajichalise/malp/blob/main/8086/5.asm)
 6. Write an procedure program for 8086 to print newline and use it to display 3 different strings in different lines. [open](https://github.com/shivajichalise/malp/blob/main/8086/6.asm)
-7. Write an ALP for 8086 to find 1^2 + 2^2 + 3^2 + ..... + n^2 whttps://github.com/shivajichalise/malp/blob/main/8086/3.asm n is given by user. [open](https://github.com/shivajichalise/malp/blob/main/8086/7.asm)
+7. Write an ALP for 8086 to find 1^2 + 2^2 + 3^2 + ..... + n^2 where n is given by user. [open](https://github.com/shivajichalise/malp/blob/main/8086/7.asm)
 8. Write an ALP for 8086 to calculate square root of a number given that the number is perfect square of two digit. [open](https://github.com/shivajichalise/malp/blob/main/8086/8.asm)
 9. Write an ALP for 8086 to copy one string from one location to another. [open](https://github.com/shivajichalise/malp/blob/main/8086/9.asm)
 10. Write an ALP for 8086 to copy 16 bytes of data from D000h to E000h. [open](https://github.com/shivajichalise/malp/blob/main/8086/10.asm)
