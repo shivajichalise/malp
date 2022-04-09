@@ -7,10 +7,9 @@
 		mov ax,@data
 		mov ds,ax
 
-		mov ah, 09h
 		lea dx, msg
+		mov ah, 09h
 		int 21h
-		exit:
 
 	mov ax, 4c00h
 	int 21h
