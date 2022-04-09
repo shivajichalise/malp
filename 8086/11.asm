@@ -2,7 +2,6 @@
 .stack 64h
 .data
   num db 05h
-  fact dw ?
   iterator db 1
 .code
   main proc
