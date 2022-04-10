@@ -2,6 +2,7 @@
 .stack 64h
 .data
   msg1 db 10,13, "Enter the number: $"
+  msg2 db 10,13, "Square of given number is: $"
 .code
   main proc
     mov ax, @data
@@ -13,25 +14,33 @@
 
     mov ah, 01h
     int 21h
-
-    mov bh, 00h
-
+    
+    sub al, 30h
     mov bl, al
     call findsquare
-    add dl, bl
+    mov bx, ax
 
-    mov ah, 02h
-    int 3h
+    lea dx, msg2
+    mov ah, 09h
     int 21h
     
+    mov dl, bh
+    add dl, 30h
+    mov ah, 02h
+    int 21h
 
+    mov dl, bl
+    add dl, 30h
+    mov ah, 02h
+    int 21h
+
+    mov ax, 4c00h
+    int 21h
   main endp
 
   findsquare proc
-    mov cx, bl
-    mov bl, 00h
-    for: add bl, al
-         loop for
+   mul bl
+   aam
   ret
   findsquare endp
 end main
