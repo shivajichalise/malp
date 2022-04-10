@@ -14,7 +14,6 @@
       mov [di], al
       inc di
       inc si
-      dec cx
       loop for
 
     mov ax, 4c00h

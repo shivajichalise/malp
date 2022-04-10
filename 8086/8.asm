@@ -1,7 +1,6 @@
 .model small
 .stack 64h
 .data
-  msg1 db 10,13, "Give a perfect square number: $"
   num dw 90h
   res dw ?
 .code
